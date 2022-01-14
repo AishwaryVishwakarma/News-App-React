@@ -2,6 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Install
 Use these in terminal to install all the dependencies.
 ```
 npm i 
