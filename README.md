@@ -3,7 +3,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Use `npm i`, `npm i react-infinite-scroll-component`, `npm install --save react-top-loading-bar` to install all the dependencies.
+
 Go to https://newsapi.org/ and generate an ApiKey, then create .env.local folder outside only. In that folder paste: 
+
 REACT_APP_NEWS_API = {Your ApiKey}
 
 ## Available Scripts
