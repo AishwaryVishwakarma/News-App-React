@@ -12,7 +12,7 @@ npm install --save react-top-loading-bar
 
 Go to https://newsapi.org/ and generate an ApiKey there, then create `.env.local` folder outside only. In that folder paste: 
 
-REACT_APP_NEWS_API = {Your ApiKey}
+REACT_APP_NEWS_API = 'Your ApiKey'
 
 ## Available Scripts
 
