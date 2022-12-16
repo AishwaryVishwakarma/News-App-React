@@ -57,8 +57,8 @@ const News = (props) => {
         NewsMonkey - Top {capitalizeFirstLetter(props.category)} Headlines
       </h1>
       {loading && <Spinner />}
-      <InfiniteScroll
-        dataLength={articles.length}
+     <InfiniteScroll
+        dataLength={articles.length === totalResults ? articles.length : articles.length + 1}
         next={fetchMoreData}
         hasMore={articles.length !== totalResults}
         loader={<Spinner />}
